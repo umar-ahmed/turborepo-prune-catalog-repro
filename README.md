@@ -1,5 +1,5 @@
 # turborepo-prune-catalog-repro
-Minimal reproduction of issue with catalog: protocol plugin in Yarn 4 with Turborepo prune command
+Minimal reproduction of issue with `catalog:` protocol plugin in Yarn 4 with Turborepo `prune` command
 
 # Steps to reproduce
 
@@ -9,11 +9,11 @@ Minimal reproduction of issue with catalog: protocol plugin in Yarn 4 with Turbo
 
 # Expected behavior
 
-The `out` directory should contain the pruned package with the correct dependencies.
+The `out` directory should contain the pruned package with the correct dependencies (ie. `commander` should resolve to `14.0.0`)
 
 # Actual behavior
 
-Error occurs during the pruning process indicating that it is unable to find a locator for `commander@catalog`.
+Error occurs during the pruning process indicating that it is unable to find a locator for `commander@catalog:`.
 
 ```
 turbo 2.5.5

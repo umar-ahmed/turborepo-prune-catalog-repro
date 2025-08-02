@@ -13,14 +13,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"b@workspace:packages/b":
-  version: 0.0.0-use.local
-  resolution: "b@workspace:packages/b"
-  dependencies:
-    commander: "catalog:"
-  languageName: unknown
-  linkType: soft
-
 "commander@npm:14.0.0":
   version: 14.0.0
   resolution: "commander@npm:14.0.0"

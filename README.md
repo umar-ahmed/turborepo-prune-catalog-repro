@@ -1,6 +1,6 @@
 # turborepo-prune-catalog-repro
 
-Demonstration taht pnpm does work with `turbo prune` and that the pruned package is usable.
+Demonstration that pnpm does work with `turbo prune` and that the pruned package is usable.
 
 # Steps 
 
